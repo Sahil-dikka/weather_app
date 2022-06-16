@@ -54,3 +54,26 @@ button:hover {
 h1.tmep {
     margin: 0;
 }
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.wether.loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.wether.loading:after{
+    visibility: visible;
+    content: "Loding...";
+    color:black;
+    position: absolute;
+}
